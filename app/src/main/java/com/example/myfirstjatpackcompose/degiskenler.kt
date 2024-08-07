@@ -37,7 +37,7 @@ fun main(){
     println(sonuc1);
     println(sonuc2);
 
-    // sayısaldan metne
+    /// sayısaldan metne
     val sonuc3 = i.toString()
     val sonuc4 = d.toString()
     println(sonuc3);
