@@ -21,5 +21,5 @@ fun main() {
     println("Maaş: $salary")
     //Kota ücreti
     val priceGB = f.calcGbPrice(52)
-    println("Kota Ücreti: $priceGB")
+    println("Kota Ücreti: $priceGb")
 }
