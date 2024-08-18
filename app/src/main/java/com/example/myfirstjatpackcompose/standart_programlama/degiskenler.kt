@@ -1,4 +1,4 @@
-package com.example.myfirstjatpackcompose
+package com.example.myfirstjatpackcompose.standart_programlama
 
 fun main(){
     var urunAdi = "Macbook Pro";
