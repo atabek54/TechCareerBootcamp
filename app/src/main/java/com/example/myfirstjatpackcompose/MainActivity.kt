@@ -12,6 +12,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import cafe.adriel.voyager.navigator.Navigator
+import com.example.myfirstjatpackcompose.Odevler.CalculaterScreen
 import com.example.myfirstjatpackcompose.Odevler.Odev4Anasayfa
 import com.example.myfirstjatpackcompose.ui.theme.MyFirstJatpackComposeTheme
 
@@ -26,7 +27,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MyFirstJatpackComposeTheme {
-                Navigator(screen=Odev4Anasayfa())
+                CalculaterScreen()
+             //   Navigator(screen=Odev4Anasayfa())
             }
         }
     }
